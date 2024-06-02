@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.fashion.thefashiongateway.ui.home.HomeFragment"
+        android:label="Tienda"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_trousers"
+        android:name="com.fashion.thefashiongateway.ui.trousers.TrousersFragment"
+        android:label="Pantalones"
+        tools:layout="@layout/fragment_trousers" />
+
+    <fragment
+        android:id="@+id/nav_coats"
+        android:name="com.fashion.thefashiongateway.ui.coats.CoatsFragment"
+        android:label="Abrigos"
+        tools:layout="@layout/fragment_coats" />
+
+    <fragment
+        android:id="@+id/nav_skirts"
+        android:name="com.fashion.thefashiongateway.ui.skirts.SkirtsFragment"
+        android:label="Faldas"
+        tools:layout="@layout/fragment_skirts" />
+
+    <fragment
+        android:id="@+id/nav_complements"
+        android:name="com.fashion.thefashiongateway.ui.complements.ComplementsFragment"
+        android:label="Complementos"
+        tools:layout="@layout/fragment_complements" />
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="com.fashion.thefashiongateway.ui.offers.OffersFragment"
+        android:label="Ofertas"
+        tools:layout="@layout/fragment_offers" />
+    <fragment
+        android:id="@+id/seasonFragment"
+        android:name="com.fashion.thefashiongateway.ui.season.SeasonFragment"
+        android:label="Temporada"
+        tools:layout="@layout/fragment_season" />
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.fashion.thefashiongateway.ui.SearchFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_search" />
+</navigation>

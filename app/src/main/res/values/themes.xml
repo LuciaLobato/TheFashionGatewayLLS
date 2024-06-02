@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TheFashionGateway" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#97AFAD</item>
+        <item name="colorPrimaryVariant">#006158</item>
+        <item name="colorOnPrimary">#CEFFFA</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#006158</item>
+        <item name="colorSecondaryVariant">#CEFFFA</item>
+        <item name="colorOnSecondary">#CEFFFA</item>
+        <item name="android:itemBackground">@color/white</item>
+
+        <item name="android:statusBarColor">#009688</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="fontFamily">@font/avenirnext</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:background">#006158</item>
+    </style>
+    <style name="Theme.TheFashionGateway" parent="Base.Theme.TheFashionGateway">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+
+        <item name="colorPrimary">#97AFAD</item>
+        <item name="colorPrimaryVariant">#006158</item>
+        <item name="colorOnPrimary">#CEFFFA</item>
+        <!-- Secondary brand color. -->
+
+        <item name="colorOnSecondary">#CEFFFA</item>
+        <item name="android:itemBackground">@color/white</item>
+        <item name="android:statusBarColor">#009688</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="fontFamily">@font/avenirnext</item>
+    </style>
+
+    <style name="Theme.TheFashionGateway.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.TheFashionGateway.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TheFashionGateway.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SelectedNavItemStyle">
+        <item name="android:background">@color/selectedItemBackground</item>
+    </style>
+
+    <style name="NavigationViewStyle" parent="Widget.Design.NavigationView">
+
+        <!-- Aquí aplicamos el nuevo estilo al ítem seleccionado -->
+        <item name="android:theme">@style/SelectedNavItemStyle</item>
+    </style>
+</resources>

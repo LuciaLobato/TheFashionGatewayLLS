@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_icon"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/add_image_icon"
+        android:id="@+id/imgSelectProduct"
+        />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:hint="Nombre"
+
+        android:textColor="#003F39"
+      />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtColor"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:hint="Color"
+        android:textColor="#003F39"
+        />
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+        android:hint="Precio"
+
+        android:textColor="#003F39"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtStock"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:hint="Stock"
+
+        android:textColor="#003F39"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtStyle"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:hint="Estilo"
+
+        android:textColor="#003F39"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/txtType"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:hint="Tipo"
+
+        android:textColor="#003F39"
+        />
+    <Button
+        android:id="@+id/btnCreateProduct"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#003F39 "
+        android:elevation="4dp"
+        android:text="Crear Producto"
+        />
+
+</LinearLayout>

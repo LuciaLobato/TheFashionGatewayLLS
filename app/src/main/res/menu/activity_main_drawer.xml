@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:checked="true"
+            android:title="Tienda" />
+        <item
+            android:id="@+id/nav_trousers"
+            android:icon="@drawable/trousers_icon"
+            android:title="Pantalones" />
+        <item
+            android:id="@+id/nav_coats"
+            android:icon="@drawable/coat_icon"
+            android:title="Abrigos" />
+        <item
+            android:id="@+id/nav_skirts"
+            android:icon="@drawable/skirt_icon"
+            android:title="Faldas" />
+        <item
+            android:id="@+id/nav_complements"
+            android:icon="@drawable/complements_icon"
+            android:title="Complementos" />
+
+    </group>
+</menu>

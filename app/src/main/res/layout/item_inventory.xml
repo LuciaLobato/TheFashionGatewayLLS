@@ -1,0 +1,96 @@
+<!-- item_inventory.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewProduct"
+        android:layout_width="130dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/camisa_image" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="160dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/textViewProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Nombre del Producto" />
+
+        <TextView
+            android:id="@+id/textViewProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="14sp"
+            android:text="Precio: 100€" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <TextView
+                android:id="@+id/textViewQuantityLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Stock:" />
+
+            <ImageButton
+                android:id="@+id/btnDecreaseQuantity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/minus_icon"
+                android:background="?attr/selectableItemBackground"
+                android:padding="8dp"/>
+
+            <EditText
+                android:id="@+id/textViewProductQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:textSize="14sp"
+                android:text="1"
+                android:padding="8dp"/>
+
+            <ImageButton
+                android:id="@+id/btnIncreaseQuantity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/plus_icon"
+                android:background="?attr/selectableItemBackground"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="159dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:width="50dp"
+            android:textSize="20dp"
+            android:drawablePadding="10dp"
+            android:src="@drawable/save_icon"
+            android:background="@drawable/square_button_background"
+            android:text="Añadir" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

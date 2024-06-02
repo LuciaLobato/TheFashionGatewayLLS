@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".activity_view_admin"
+    android:background="#009587">
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_icon"
+        android:layout_margin="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/btnCreateAdminAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#003F39"
+            android:text="Crear cuenta de administrador"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnViewInventory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#003F39"
+            android:text="Ver Inventario"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnCreateProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#003F39"
+            android:text="Crear Producto"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnViewOrders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#003F39"
+            android:text="Ver Órdenes"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:backgroundTint="#003F39"
+            android:text="Cerrar Sesión"
+            android:textColor="#FFFFFF"
+            android:elevation="4dp"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

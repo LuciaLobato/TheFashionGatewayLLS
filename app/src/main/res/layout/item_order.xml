@@ -1,0 +1,35 @@
+<!-- layout/order_item.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/rounded_shadow_background" android:layout_margin="5dp"> <!-- Aplicar el fondo redondeado con sombra -->
+
+    <!-- Aquí van tus elementos de diseño -->
+    <!-- Mostrar el ID del pedido -->
+    <TextView
+        android:id="@+id/text_order_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID del Pedido: "
+        android:textStyle="bold"/>
+
+    <!-- Mostrar la fecha del pedido -->
+    <TextView
+        android:id="@+id/text_order_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Fecha del Pedido: "/>
+
+    <!-- Mostrar la lista de productos del pedido -->
+    <TextView
+        android:id="@+id/text_order_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Productos del Pedido: "
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
